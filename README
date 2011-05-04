@@ -1,0 +1,25 @@
+Date::Holidays::CA_ES version 0.01
+=======================================
+
+Catalan holidays for Date::Holidays
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+DEPENDENCIES
+
+  Date::Holidays::ES
+
+COPYRIGHT AND LICENCE
+
+Copyright 2010 Miquel Ruiz <mruiz@cpan.org>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
