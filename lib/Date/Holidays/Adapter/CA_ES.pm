@@ -4,8 +4,6 @@ package # Hide from PAUSE
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
-
 use base 'Date::Holidays::Adapter::ES';
 
 1;

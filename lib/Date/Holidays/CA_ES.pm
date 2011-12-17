@@ -7,8 +7,6 @@ use DateTime;
 
 use base 'Date::Holidays::ES';
 
-our $VERSION = '0.01';
-
 sub holidays {
     my ($self, %params) = @_;
 
@@ -91,7 +89,7 @@ Miquel Ruiz, E<lt>mruiz@cpan.orgE<gt>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2010 Miquel Ruiz.
+Copyright 2011 Miquel Ruiz.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
