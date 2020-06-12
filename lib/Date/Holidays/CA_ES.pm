@@ -90,7 +90,7 @@ Miquel Ruiz, E<lt>mruiz@cpan.orgE<gt>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2011 Miquel Ruiz.
+Copyright 2020 Miquel Ruiz.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
