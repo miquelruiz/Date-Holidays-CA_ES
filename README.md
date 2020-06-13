@@ -6,16 +6,14 @@ Date::Holidays::CA\_ES - Catalan holidays
 
     use Date::Holidays;
 
-    my $dh = Date::Holidays->new( countrycode => 'ca_es', nocheck => 1 );
+    my $dh = Date::Holidays->new( countrycode => 'es' );
+    $dh->is_holiday(year => 2007, month => 4, day => 9 , region => 'ca')
 
 # DESCRIPTION
 
 This module provide the official holidays for Catalonia, an Autonomous
 Community of Spain. It makes use of Date::Holidays::ES as parent class, since
 the catalan holidays are the spanish ones plus some more.
-
-Notice that "ca\_es" is not a valid ISO 3166 code, so the "nocheck" option set
-to true in the constructor is mandatory to use this module.
 
 The following Catalan holidays have fixed dates (remember to take a look to the
 spanish ones as well!)
@@ -32,8 +30,7 @@ The following Catalan holiday hasn't a fixed date:
 # METHODS
 
 The methods are identical to Date::Holidays::ES ones, except those with the
-"es" country code in them. Since "ca\_es", is not a valid ISO country code,
-those methods are not provided.
+"es" country code in them.
 
 ## holidays
 
