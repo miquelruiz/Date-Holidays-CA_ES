@@ -1,4 +1,5 @@
 {{$NEXT}}
+    - Update documentation to use countrycode "es" and pass "region => 'ca'"
 
 0.03      2011-12-17 16:53:02 Europe/Madrid
     $VERSION in lib/Date/Holidays/CA_ES.pm was wrong in previous release
